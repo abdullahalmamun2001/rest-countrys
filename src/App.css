@@ -6,6 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
+.person{
+  padding: 30px;
+  background-color: coral;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+}
+.container{
+  padding: 30px;
+  background-color: pink;
+  border: 3px solid coral;
+  border-radius: 20px;
+  margin: 20px;
+}
+.country{
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  color: maroon;
+  border: 5px solid magenta;
+  border-radius: 20px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +58,4 @@
     transform: rotate(360deg);
   }
 }
+
